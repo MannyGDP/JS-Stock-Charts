@@ -40,7 +40,7 @@ async function main() {
     }
 });
 
-// High Chart
+// Manny High Chart
 new Chart(highestPriceChartCanvas.getContext('2d'), {
     type: 'bar',
     data: {
@@ -60,7 +60,7 @@ new Chart(highestPriceChartCanvas.getContext('2d'), {
     }
 });
 
-// Average Chart
+// Manny Average Chart
 new Chart(averagePriceChartCanvas.getContext('2d'), {
     type: 'pie',
     data: {
